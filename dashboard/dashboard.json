@@ -1,0 +1,327 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1495411581409,
+      "description": "",
+      "disabled": false,
+      "id": "1914a057-68b3-4d1c-a0af-5e0e4b232bfd",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "IIS Performance",
+      "rank": 147,
+      "shared": false,
+      "temporary": false,
+      "userId": "884448c1-d8ca-400e-b97e-1096507ed7a5",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "fd27dc2c-c45e-4f43-a157-768fb8743e9c",
+            "widgetIdReceiver": "105522f1-e4f9-412f-bb52-446cafc783d3"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "105522f1-e4f9-412f-bb52-446cafc783d3",
+            "widgetIdReceiver": "6484980e-0c82-4238-9566-81d84ce75ac0"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "fd27dc2c-c45e-4f43-a157-768fb8743e9c",
+            "widgetIdReceiver": "7f25d39e-b99e-423c-aa2b-5d3372c00a59"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7f25d39e-b99e-423c-aa2b-5d3372c00a59",
+            "widgetIdReceiver": "f304617e-33bf-4915-aad2-288e71e7951e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "fd27dc2c-c45e-4f43-a157-768fb8743e9c",
+            "widgetIdReceiver": "3786e85c-a103-4cc0-a700-363b860f4d7e"
+         },
+         {
+            "type": "metricId",
+            "widgetIdProvider": "f304617e-33bf-4915-aad2-288e71e7951e",
+            "widgetIdReceiver": "3786e85c-a103-4cc0-a700-363b860f4d7e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "105522f1-e4f9-412f-bb52-446cafc783d3",
+            "widgetIdReceiver": "7d712148-d3a4-4f88-a8d5-1c765e9c9859"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "filterMode": {"filterMode": "resourceKind"},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceKind": {
+                  "resourceKindId": "resourceKind:id:0_::_",
+                  "resourceKindName": "Windows"
+               },
+               "resources": [],
+               "title": "IIS Servers"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 2,
+               "x": 1,
+               "y": 1
+            },
+            "height": 350,
+            "id": "fd27dc2c-c45e-4f43-a157-768fb8743e9c",
+            "states": [{
+               "key": "permContainerGrid_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_fd27dc2c-c45e-4f43-a157-768fb8743e9c",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A142%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A40%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A40%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "IIS Servers",
+            "type": "ContainerOverview"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": {"mode": -1},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": [
+                     "/source/kind/kind:resourceKind:id:1_::_",
+                     "/source/kind/kind:resourceKind:id:2_::_",
+                     "/source/kind/kind:resourceKind:id:3_::_",
+                     "/source/kind/kind:resourceKind:id:4_::_",
+                     "/source/kind/kind:resourceKind:id:5_::_"
+                  ],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": [
+                        "resourceKind:id:1_::_",
+                        "resourceKind:id:2_::_",
+                        "resourceKind:id:3_::_",
+                        "resourceKind:id:4_::_",
+                        "resourceKind:id:5_::_"
+                     ],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "IIS Components"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 2,
+               "x": 3,
+               "y": 1
+            },
+            "height": 350,
+            "id": "105522f1-e4f9-412f-bb52-446cafc783d3",
+            "states": [{
+               "key": "permResGrid_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_105522f1-e4f9-412f-bb52-446cafc783d3",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A267%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AresourceKind%2525255Edirection%2525253Ds%252525253AASC"
+            }],
+            "title": "IIS Components",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 14,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last6Hour",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "IIS ALL METRICS",
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "Scoreboard",
+               "valueSize": 24,
+               "visualTheme": 1
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 2,
+               "x": 5,
+               "y": 1
+            },
+            "height": 350,
+            "id": "6484980e-0c82-4238-9566-81d84ce75ac0",
+            "title": "Scoreboard",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceName": "",
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Relationship"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 2,
+               "x": 1,
+               "y": 11
+            },
+            "height": 313,
+            "id": "7f25d39e-b99e-423c-aa2b-5d3372c00a59",
+            "states": [{
+               "key": "permResourceRelationship_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_7f25d39e-b99e-423c-aa2b-5d3372c00a59",
+               "value": "o%3A"
+            }],
+            "title": "Relationship",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 9,
+               "w": 2,
+               "x": 3,
+               "y": 11
+            },
+            "height": 313,
+            "id": "f304617e-33bf-4915-aad2-288e71e7951e",
+            "states": [
+               {
+                  "key": "permMetricPicker_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_f304617e-33bf-4915-aad2-288e71e7951e",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1"
+               },
+               {
+                  "key": "permFetchCommonMetrics_permMetricPicker_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_f304617e-33bf-4915-aad2-288e71e7951e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permFetchCollectingMetrics_permMetricPicker_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_f304617e-33bf-4915-aad2-288e71e7951e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permFetchPropertyMetrics_permMetricPicker_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_f304617e-33bf-4915-aad2-288e71e7951e",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Metric Picker",
+            "type": "MetricPicker"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 9,
+               "w": 2,
+               "x": 5,
+               "y": 11
+            },
+            "height": 313,
+            "id": "3786e85c-a103-4cc0-a700-363b860f4d7e",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_3786e85c-a103-4cc0-a700-363b860f4d7e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_3786e85c-a103-4cc0-a700-363b860f4d7e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_3786e85c-a103-4cc0-a700-363b860f4d7e",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_3786e85c-a103-4cc0-a700-363b860f4d7e",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Metric Chart",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 20
+            },
+            "height": 206,
+            "id": "7d712148-d3a4-4f88-a8d5-1c765e9c9859",
+            "states": [
+               {
+                  "key": "permDateFilter_permAlertGrid_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_7d712148-d3a4-4f88-a8d5-1c765e9c9859",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_widget_1914a057-68b3-4d1c-a0af-5e0e4b232bfd_7d712148-d3a4-4f88-a8d5-1c765e9c9859",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A299.11111%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Alert List",
+            "type": "AlertList"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "IIS AppHostSvc"
+      },
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "IIS WAS Service Application Pool"
+      },
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "IIS WWW Service"
+      },
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "IIS WAS Service"
+      },
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "IIS WWW Service Site"
+      },
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Windows"
+      }
+   ]},
+   "uuid": "af1067be-b833-4bd8-b813-086fd0d953e8"
+}
